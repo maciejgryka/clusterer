@@ -34,7 +34,7 @@ public:
   ++n_points_;
   // adjust the mean
   means_.row(closest_mean) += 
-      (point - means_.row(closest_mean)) / cluster_points_[closest_mean];
+      (point - means_.row(closest_mean));// / cluster_points_[closest_mean];
 }
 
   // same as above, but do it for each row in the given matrix

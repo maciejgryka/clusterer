@@ -1,6 +1,9 @@
 sequential k-means clustering
 maciej.gryka@gmail.com
 
+** Feel free to use this code for any research/personal use. Please give me a
+shout for anything else. **
+
 Small header file implementing multidimensional data clustering using
 sequential k-means. See
 
