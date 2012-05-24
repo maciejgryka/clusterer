@@ -12,3 +12,5 @@ To test, first run the python script create_data.py. Then run main.cpp (make
 sure the paths to data files are corect). Once it's done (should be quick), run
 plot_clusters.py for a 3D visualization of points (white) and cluster centers 
 (red spheres).
+
+requires numpy and Mayavi
